@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Instagram</title>
+    <style>
+      .cart {
+        display: flex;
+        align-items: center; 
+        width: 320px;
+        padding: 10px;
+        border: 1px solid #ccc; 
+        border-radius: 10px;
+      }
+
+      .profile-picd {
+        border-radius: 50%;
+        width: 80px;
+      }
+
+      .user-stats {
+        flex-grow: 1; 
+        text-align: left; 
+        margin-left: 10px; 
+      }
+
+      p {
+        font-family: Roboto, sans-serif;
+        line-height: 20px;
+        margin: 5px 0;
+      }
+
+      .username {
+        font-weight: bold;
+      }
+
+      .name,
+      .status {
+        color: rgb(96, 96, 96);
+      }
+
+      .follow-btn {
+        background-color: greenyellow;
+        color: white;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 14px;
+      }
+
+      .follow-btn:hover {
+        background-color: #0077cc;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="cart">
+      <div class="profile-pic">
+        <img class="profile-picd" src="channel-pictures/channel-1.jpeg">
+      </div>
+
+      <div class="user-stats">
+        <p class="username">oliver</p>
+        <p class="name">the cat</p>
+        <p class="status">Popular</p>
+      </div>
+
+      <button class="follow-btn">Follow</button>
+    </div>
+  </body>
+</html>
